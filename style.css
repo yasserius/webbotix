@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
+body {
+    background-color: #000c29;
+    color: white !important;
+}
+
+.medium-text {
+    font-family: 'Armata';
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    color: rgba(225, 225, 225, 0.756);
+}
+
+.large-header-text,
+.medium-text {
+    margin-bottom: 30px;
+}
+
+.link-text {
+    /* font-size: 1.1em; */
+    text-decoration: bold;
+    text-transform: uppercase;
+    font-family: 'Jura', serif;
+}
+.link-text i {
+    margin-right: 10px;
+}
+.link-text a {
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    color: white;
+    transition-duration: 0.3s;
+}
+.link-text a:hover {
+    color: rgb(0, 179, 255);
+}
+
+.nav-link {
+    font-family: 'Jura', serif;
+    font-size: 0.8em;
+    color: white;
+    text-transform: uppercase;
+}
+
+#navbar-brand {
+    font-family: 'Jura';
+}
+
+.translucent {
+    opacity: 40%;
+}
+
+.navbar {
+    background-color: #00123c;
+    transition-duration: 0.3s;
+}
+
+.navbar:hover {
+    background-color: #001a56;
+}
+
+.navbar-brand, 
+.nav-item {
+    padding: 0px 10px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+section {
+    padding: 100px 0;
+    /* height: 80vh; */
+}
+
+#first-slide p {
+    margin-top: 20px;
+}
+
+#first-slide {
+    /* background: linear-gradient(45deg, rgba(0,131,255,0.5088410364145659) 0%, rgba(0,197,184,0) 53%, rgba(0,255,121,0.520045518207283) 100%); */
+    /* background: rgb(0,255,156); */
+    background: linear-gradient(0deg, rgba(0,255,156,0.7573034702549575) 0%, rgba(255,0,153,0) 100%);
+}
+
+#second-slide {
+    /* background: linear-gradient(-45deg, rgba(255,0,153,0.52) 0%, rgba(0,131,255,0.5088410364145659) 100%); */
+    background: linear-gradient(0deg, rgba(0,181,255,0.7573034702549575) 0%, rgba(255,0,153,0) 100%);
+}
+
+#third-slide {
+    /* background: linear-gradient(45deg, rgba(61,0,255,0.5088410364145659) 0%, rgba(255,0,153,0.52) 100%); */
+    background: linear-gradient(0deg, rgba(181,0,255,0.7573034702549575) 0%, rgba(255,0,153,0) 100%);
+}
+
+#call-to-action {
+    /* background: rgb(0,42,255); */
+    background: linear-gradient(90deg, #ff0051cb 0%, #84007f 100%);
+    color: white;
+    font-weight: 700;
+    font-family: 'Jura', serif;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: bold;
+    transition-duration: 0.5s;
+}
+
+#call-to-action:hover {
+    background: white;
+    color: blue;
+}
+
+#first-animation {
+    width: 150%;
+    /* background: 
+        radial-gradient(circle, rgba(0, 221, 255, 0.5) 0%, rgba(26,0,111,0) 30%);
+    background-repeat: no-repeat;
+    animation-name: glowing_bg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+
+.animation-div {
+    display: block;
+    padding: 20px;
+    /* overflow: hidden; */
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.large-header-text {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-family: 'Jura', serif;
+    text-shadow: 
+        -2px 2px #009dff,
+        -5px 5px #0d004b;
+}
+
+h2.large-header-text {
+    font-size: 3em;
+}
+
+#second-animation,
+#first-animation {
+    top: 0;
+    transform: translateX(-50%);
+} 
+
+.pos-rel {
+    position: relative;
+    height: 100%;
+}
+
+.pos-abs {
+    position: absolute;
+    top: 50%;
+}
+
+.card-box {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.card-box .card-icon {
+    font-size: 3em;
+}
+
+.card-box .card-icon,
+.card-box .card-title {
+    margin-bottom: 20px;
+}
+
+.card-box .card-title {
+    font-family: 'Jura', serif;
+}
+
+.card-box .card-description {
+    font-family: 'Armata';
+    font-size: 0.8em;
+    color: rgba(225, 225, 225, 0.756);
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+}
+
+.price-box {
+    text-align: center;
+    background-color: rgb(22, 22, 114);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.price-box:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.price-img {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.price-cat {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    font-family: 'Jura';
+    color: rgb(0, 238, 255);
+    text-shadow: 2px 2px rgb(0, 0, 109);
+}
+
+.price-features {
+    list-style-type: none;
+    font-family: 'Armata';
+    font-size: 0.8em;
+}
+
+ul.price-features li {
+    margin-bottom: 10px;
+}
+
+.price-img img {
+    height: 90%;
+}
+
+#small-spider {
+    height: 70%;
+}
+#medium-spider {
+    height: 85%;
+}
+#large-spider {
+    height: 100%;
+}
+
+.price-img,
+.price-tag {
+    margin-bottom: 40px;
+}
+
+.price-tag {
+    font-family: 'Jura';
+    text-shadow: 2px 2px rgb(0, 0, 109);
+}
+
+.price-tag span {
+    font-size: 0.5em;
+    margin-left: 5px;
+}
+
+ul.price-features {
+    /* text-align: left; */
+    list-style: '✓';
+}
+
+#standard-price-box {
+    background: rgb(0,42,111);
+    background: linear-gradient(0deg, rgba(0, 65, 171, 0.5) 0%, rgba(0, 210, 168, 0.5) 100%);
+}
+
+#premium-price-box {
+    background: rgb(75,0,120);
+    background: linear-gradient(0deg, rgba(39, 0, 62, 0.475) 0%, rgba(116, 0, 83, 0.45) 100%);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.contact-form-container {
+    background-color: rgb(10, 10, 41);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-form-container h3 {
+    font-size: 2em;
+    font-family: 'Armata';
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+#sixth-slide {
+    background-color: rgb(3, 0, 26);
+}
+
+#sixth-slide img {
+    width: 90%;
+}
+
+#footer-section {
+    padding: 20px;
+}
+
+#footer-img {
+    width: 50%;
+}
+
+footer h3 {
+    font-family: 'Jura';
+    margin: 10px 0px;
+}
+
+footer p {
+    font-family: 'Armata';
+}
+
+footer {
+    padding: 20px 0;
+}
+
+#footer-links h6 {
+    font-family: 'Jura';
+}
+
+#footer-links a {
+    font-family: 'Jura';
+    text-decoration: none;
+}
+
+#footer-info i {
+    margin: 10px;
+}
+
+#footer-info {
+    font-size: 0.8em;
+}
+
+#footer-logo {
+    font-size: 50px;
+}
+
+#footer-links p {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 60px 0;
+        /* height: 90vh; */
+    }
+
+    #call-to-action {
+        padding: 10px 30px;
+        font-size: 0.8em;
+        margin-bottom: 20px;
+    }
+
+    .card-box {
+        width: 90%;
+    }
+
+    .large-header-text {
+        font-size: 3em;
+    }
+
+    .price-box {
+        width: 70%;
+    }
+
+    .contact-form-container {
+        margin-top: 50px;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    #sixth-slide img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer .row .col-md-4 {
+        margin-bottom: 40px;
+        border-bottom: 1px solid rgb(20, 18, 63);
+    }
+}
+
+
